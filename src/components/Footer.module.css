@@ -1,0 +1,111 @@
+.footer {
+    margin: 0 auto;
+    margin-top: 250px;
+    padding-top: 40px;
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #ccc;
+    /* filter: drop-shadow(0 0 5px #000); */
+    background-color: rgb(245, 245, 245);
+}
+
+.content {
+    margin: 0 auto;
+    width: 960px;
+    margin-bottom: 25px;
+}
+
+.row {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row:last-child {
+    margin: 0;
+    border: none;
+}
+
+.column {
+    /* padding-right: 20px; */
+    width: 200px;
+    font-size: 15px;
+    text-align: left;
+    /* border-right: 1px solid #ccc; */
+    /* background: #fff; */
+}
+
+.column:first-child {
+    width: 240px;
+}
+
+.column:last-child {
+    border: none;
+}
+
+.column .phones,
+.column .titles {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.column .titles {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.column .text {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.column .hours {
+    font-size: 13px;
+}
+
+.input {
+    padding: 0 10px;
+    margin: 10px 0;
+    width: 180px;
+    height: 34px;
+    color: #495057;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #ccc;
+    /* border: 2px solid #cbeb40; */
+    /* box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1); */
+    /* background: #495057; */
+    /* background: #fff; */
+    /* opacity: 0.5; */
+}
+
+.go {
+    padding: 10px;
+    height: 34px;
+    cursor: pointer;
+    color: #fff;
+    background: #8848b8;
+    border: none;
+}
+
+.logo,
+.social {
+    width: 200px;
+    height: 50px;
+    /* display: flex; */
+}
+
+.legal {
+    font-size: 12px;
+}
+
+.account {
+    margin-right: 30px;
+    width: 200px;
+    height: 50px;
+    background: #eee;
+}

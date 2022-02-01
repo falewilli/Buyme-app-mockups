@@ -1,0 +1,38 @@
+.header {
+    margin: 0 auto;
+    width: 100%;
+    height: 180px;
+    justify-content: space-between;
+    /* filter: drop-shadow(0 0 5px #000); */
+    background-color: #8848b8;
+}
+
+.top {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+    background-color: #000;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.logo {
+    margin-left: 30px;
+    width: 200px;
+    height: 50px;
+    /* display: flex; */
+}
+
+.account {
+    margin-right: 30px;
+    width: 200px;
+    height: 50px;
+    background: #eee;
+}

@@ -1,0 +1,21 @@
+.nav {
+    margin: 0 auto;
+    padding: 10px;
+    width: 680px;
+    height: 20px;
+    /* line-height: 40px; */
+    /* background: #eee; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.nav div {
+    margin-right: 60px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.nav div:last-child {
+    margin-right: 0;
+}
